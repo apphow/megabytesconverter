@@ -21,17 +21,25 @@ If the parameter kilBites is less than 0 then print the text "Invalid Value".
 EXAMPLE INPUT/OUTPUT
     * printMegaBytesAndKiloBytes(2500); -> should print the following text: "2500 KB = 2 
       MB and 452 KB"
+      
     * printMegaBytesAndKiloBytes(-1024); -> should print the following text: "Invalid 
         Value" because parameter is less than 0.
+        
     * printMegaBytesAndKiloBytes(5000); -> should print the following text: "5000 KB = 4
       MB and 904 KB"
       
 TIP: Be extremely careful about spaces in the printed message.
-TIP: Use the remainder operator
-TIP: 1 MB = 1024 KB
+
+TIP: Use the remainder operator.
+
+TIP: 1 MB = 1024 KB,
+
 NOTE: Do not set kilobytes parameter value inside your method.
+
 NOTE: The solution will not be accepted if there are extra spaces.
+
 NOTE: The printMegaBytesAndKiloBytes method needs to be defined as public static
+
 NOTE: Do not add a main method to solution code.
 
     
