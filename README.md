@@ -19,6 +19,7 @@ KB"
 If the parameter kilBites is less than 0 then print the text "Invalid Value".
 
 EXAMPLE INPUT/OUTPUT
+
     * printMegaBytesAndKiloBytes(2500); -> should print the following text: "2500 KB = 2 
       MB and 452 KB"
       
